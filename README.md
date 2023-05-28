@@ -1,8 +1,8 @@
-# A Study on Image Quality Optimization to Improve Object Recognition of Generated Images
+# Performance Evaluation of Denoising and Object Detection on Generated Images
 <br>
 <div align="center">
     
-   **[생성 이미지에 대한 객체 인식 향상을 위한 화질 최적화 사례 연구]**
+   **[생성 이미지에 대한 객체 인식과 디노이징 성능 평가]**
   
 </div>
 
@@ -39,17 +39,22 @@
 
 |한글|영어로 번역|Stable-Diffusion으로 생성한 이미지|
 |------|---|---|
-|"냉장고를 열고 <br>샌드위치를 꺼내는 소"|"a photo of a cow that opens the <br>refrigerator and takes out a sandwich"|<img src = "https://user-images.githubusercontent.com/94797349/203352353-0eea3a28-0bfc-413b-89bb-a11486a88128.png" width="250" height="200"/>|
+|"꽃밭을 걷는 곰 사진"|"A photo of a bear walking through the flowers"|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/bb047a64-cb9c-4b9b-ae8c-d54edb1051fd" width="250" height="200"/>|
+<br>
 
-COCO val 2017의 동물 객체 중 8가지를 카테고리를 주요 객체로 문장들을 생성하였다.
+COCO val 2017의 카테고리 중 주요 객체인 person, bird, dog, cat, horse, sheep, cow, elephant, bear, giraffe, zebra에 대한 문장을 생성하고, <br>
+생성된 문장을 이용하여 이미지셋을 생성하고자 하였다.
 
-|giraffe|bear|elephant|sheep|
+|bear|zebra|horse|giraffe|
 |---|---|------|---|
-|A photo of a giraffe that throws a discus in a truck|A photo of a bear sitting on a chair and eating a sandwich|A photo of a Elephant looking at the clock while putting flowers in the pot|A photo of a sheep truckload of apples and oranges with a salad and wine|
-|<img src = "https://user-images.githubusercontent.com/94797349/203360905-13407716-f8ed-41a1-83bf-0474dc834214.png" width="150" height="150"/>|<img src = "https://user-images.githubusercontent.com/94797349/203361010-a807b5c8-4bac-45c6-8590-4ced594eb644.png" width="150" height="150"/>|<img src = "https://user-images.githubusercontent.com/94797349/203361123-f411c47e-a6c0-4901-9d89-be51a41e8cc4.png" width="150" height="150"/>|<img src = "https://user-images.githubusercontent.com/94797349/203361198-d7638f1b-2cbe-4b88-b230-7fd2391c7c5f.png" width="150" height="150"/>|
-|cow|horse|dog|cat|
-|A photo of a cow that opens the refrigerator and takes out a sandwich|A photo of a horse wearing sunglasses and lying on a sunbed under a pararol|A photo of a dog tried on shoes at a shoe store|A photo of a cat putting on lipstick in front of the mirror|
-|<img src = "https://user-images.githubusercontent.com/94797349/203352353-0eea3a28-0bfc-413b-89bb-a11486a88128.png" width="150" height="150"/>|<img src = "https://user-images.githubusercontent.com/94797349/203361292-128292fe-9502-4558-a7ea-9f5b26bc1351.png" width="150" height="150"/>|<img src = "https://user-images.githubusercontent.com/94797349/203361371-7fbb1ea3-31c8-4cd4-9b44-12c73d85660c.png" width="150" height="150"/>|<img src = "https://user-images.githubusercontent.com/94797349/203361443-59c4029b-36c1-4903-9f55-4b497ecef3a9.png" width="150" height="150"/>|
+|A photo of a bear walking through the flowers|A photo of a zebra running through the field|A photo of a horse staring a car|A photo of a giraffe looking at the night sky|
+|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/bb047a64-cb9c-4b9b-ae8c-d54edb1051fd" width="150" height="150"/>|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/916a56d5-35cc-429b-aac5-7d50cad779f0" width="150" height="150"/>|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/6e3cea4c-8dcd-4c31-a600-f8e3d7b8a63d" width="150" height="150"/>|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/f666335a-904d-4368-89f9-c8a4bbc5e1d0)" width="150" height="150"/>|
+
+
+|dog|bird|person|cat|
+|---|---|------|---|
+|A photo of dog driving a car|A photo of a bird in a bathtub covered in a towel|A photo of a person sitting on a bed|A photo of a cat putting on lipstick in front of the mirror|
+|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/a8a4009c-0121-4df8-93d7-61c11a485d6f" width="150" height="150"/>|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/79df4b04-48b5-4ff0-9cc5-4f3ba046f866" width="150" height="150"/>|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/14cfffe0-a218-468c-a65b-069013d10afd" width="150" height="150"/>|<img src = "https://user-images.githubusercontent.com/94797349/203361443-59c4029b-36c1-4903-9f55-4b497ecef3a9.png" width="150" height="150"/>|
 
 <br>
 
