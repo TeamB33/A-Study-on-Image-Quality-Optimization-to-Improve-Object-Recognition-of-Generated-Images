@@ -42,7 +42,7 @@ COCO val 2017의 카테고리 중 주요 객체인 person, bird, dog, cat, horse
 
 
 |giraffe|bear|elephant|sheep|
-|---|---|------|---|
+|-----|-----|-----|-----|
 |A photo of a giraffe looking at the night sky|A photo of a bear walking through the flowers|A photo of an elephant standing in front of a bookshelf|A photo of a sheep walking on the beach|
 |<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/f666335a-904d-4368-89f9-c8a4bbc5e1d0" width="200" height="200"/>|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/bb047a64-cb9c-4b9b-ae8c-d54edb1051fd" width="200" height="200"/>|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/e5a4e9f0-9ac8-45ae-a427-b512a75f8a1f" width="200" height="200"/>|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/abbc72a7-6631-4a27-9be8-7c692bbfc9f7" width="200" height="200"/>|
 |**cow**|**horse**|**dog**|**cat**|
@@ -97,7 +97,7 @@ stable diffusion에서 생성한 이미지를 YOLOv5의 pretrained 모델 중 mA
 각각의 카테고리에 대한 객체 인식률은 아래의 표와 같다.
 
 |카테고리|original|NAFNet|PNGAN|
-|--------|--------|------|-----|
+|-------|--------|------|-----|
 |person  |99.5    |97.7  |99.0 | 
 |bird    |96.2    |94.2  |**96.5** | 
 |dog     |99.2    |98.1  |95.3 | 
