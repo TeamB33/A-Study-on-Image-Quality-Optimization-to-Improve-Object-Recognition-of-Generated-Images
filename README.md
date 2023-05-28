@@ -1,19 +1,15 @@
 # Performance Evaluation of Denoising and Object Detection on Generated Images
-<br>
-<div>
-    
    ### 생성 이미지에 대한 객체 인식과 디노이징 성능 평가
-  
-</div>
 
-   Yolov5의 취약점 검사를 위해 COCO val 2017의 동물 객체 중 8가지를 카테고리로, Stable-diffusion 모델을 이용해 생성한 이미지를 데이터 셋으로 하여 정확도를 검사한다.
-   도출된 취약점 개선을 위해 디노이징(NAFNET, PNGAN)으로 최적화 후 정확도 검사 연구를 진행한다.
+
+   YOLOv5의 취약점 검사를 위해 COCO val 2017의 동물 객체 중 8가지를 카테고리로, Stable-diffusion 모델을 이용해 생성한 이미지를 데이터 셋으로 하여 정확도를 검사한다.
+   도출된 취약점 개선을 위해 디노이징(NAFNet, PNGAN)으로 최적화 후 정확도 검사 연구를 진행한다.
   
 </div>
 <br>   
 
 # Dataset
-  > [Dataset in Gdrive](https://drive.google.com/drive/folders/1KP1ZxGk0fJ_dSvetD0rYCNpINdC-yOdn?usp=sharing)
+  > [dataset](https://drive.google.com/drive/folders/1KP1ZxGk0fJ_dSvetD0rYCNpINdC-yOdn?usp=sharing)
 
 
 
@@ -84,9 +80,10 @@ stable diffusion에서 생성한 이미지를 YOLOv5의 pretrained 모델 중 mA
 <br>
 
 
-<br><br>**PNGAN 프레임워크:**<br>
+<br><br>**PNGAN 프레임워크:**<br><br>
 <img src="https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/01ac0cb7-6ebb-4aea-9017-bbb5cfb46a87" width="600" height="200"/>
-<br><br>
+<br><br><br>
+
 디노이징 툴인 NAFNET으로 데이터 이미지셋을 디노이징한 후, YOLOv5x로 다시 객체 인식해서 정확도 검사
 
 |original|PNGAN|NAFNet
@@ -97,8 +94,7 @@ stable diffusion에서 생성한 이미지를 YOLOv5의 pretrained 모델 중 mA
 <br><br>
 
 # 실험결과 
-### 각각의 카테고리에 대한 객체 인식률 
-
+각각의 카테고리에 대한 객체 인식률은 아래의 표와 같다.
 
 |카테고리|original|NAFNet|PNGAN|
 |--------|--------|------|-----|
