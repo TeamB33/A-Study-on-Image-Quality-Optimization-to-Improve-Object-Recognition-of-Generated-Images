@@ -26,8 +26,8 @@
 ## technology
 <br>
 
-> **Dalle-2**
-> <br>[<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=Python&logoColor=white"/>](https://openai.com/dall-e-2/)
+> **Stable-diffusion**
+> <br>[<img src="https://img.shields.io/badge/stable-diffusion-412991?style=flat-square&logo=Python&logoColor=white"/>](https://stablediffusionweb.com/)
 
 적대적 공격 사례에 활용되는 이미지들은 현실에 존재하는 이미지를 생성한 것이다. 그러므로 DALL-E-2를 활용하여 이미지를 생성할 때 작화 형식이 아닌 실제 현실과 유사한 사진 형식으로 이미지를 생성하기 위해 'A photo of'구문을 문장의 앞에 삽입하였다.
 <br>
