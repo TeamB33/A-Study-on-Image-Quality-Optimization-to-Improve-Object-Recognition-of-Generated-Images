@@ -1,1 +1,1 @@
-# A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images
+## 생성 이미지에 대한 객체 인식 향상을 위한 화질 최적화 사례 연구
