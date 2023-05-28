@@ -43,8 +43,8 @@
 COCO val 2017의 카테고리 중 주요 객체인 person, bird, dog, cat, horse, sheep, cow, elephant, bear, giraffe, zebra에 대한 문장을 생성하고, <br>
 생성된 문장을 이용하여 이미지셋을 생성하고자 하였다.
 
-|bear|zebra|horse|giraffe|
-|----|----|----|----|
+|bear   |zebra  |horse  |giraffe|
+|-------|-------|-------|-------|
 |A photo of a bear walking through the flowers|A photo of a zebra running through the field|A photo of a horse staring a car|A photo of a giraffe looking at the night sky|
 |<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/bb047a64-cb9c-4b9b-ae8c-d54edb1051fd" width="150" height="150"/>|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/916a56d5-35cc-429b-aac5-7d50cad779f0" width="150" height="150"/>|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/6e3cea4c-8dcd-4c31-a600-f8e3d7b8a63d" width="150" height="150"/>|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/f666335a-904d-4368-89f9-c8a4bbc5e1d0)" width="150" height="150"/>|
 
