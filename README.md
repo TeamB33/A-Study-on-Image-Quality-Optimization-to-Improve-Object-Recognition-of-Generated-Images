@@ -76,7 +76,7 @@ stable-diffusion에서 생성한 이미지를 YOLOv5의 pretrained 모델 중 mA
 <br>
 
 > **디노이징**
-> <br> [NAFNet](https://github.com/megvii-research/NAFNet)
+> <br> [NAFNet](https://github.com/megvii-research/NAFNet) , 
 > [PNGAN](https://github.com/caiyuanhao1998/PNGAN)
 
 디노이징 툴인 NAFNET으로 데이터 이미지셋을 디노이징한 후, YOLOv5x로 다시 객체 인식해서 정확도 검사
