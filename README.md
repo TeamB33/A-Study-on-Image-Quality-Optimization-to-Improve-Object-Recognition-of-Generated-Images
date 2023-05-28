@@ -77,10 +77,12 @@ stable diffusion에서 생성한 이미지를 YOLOv5의 pretrained 모델 중 mA
 <br><br><br>
 
 > **디노이징**
-> <br> [NAFNet](https://github.com/megvii-research/NAFNet) , 
-> [PNGAN](https://github.com/caiyuanhao1998/PNGAN)
+>  [NAFNet](https://github.com/megvii-research/NAFNet)
 <br><br>**NAFNet 프레임워크:**<br>
-<img src="https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/49c0d24c-b825-4a75-a62b-135ae2af60f0" width="600" height="200"/>
+<img src="https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/49c0d24c-b825-4a75-a62b-135ae2af60f0"/>
+
+> **디노이징**
+>  [PNGAN](https://github.com/caiyuanhao1998/PNGAN)
 <br><br>**PNGAN 프레임워크:**<br>
 <img src="https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/01ac0cb7-6ebb-4aea-9017-bbb5cfb46a87" width="600" height="200"/>
 <br><br>
