@@ -74,13 +74,14 @@ stable-diffusion에서 생성한 이미지를 YOLOv5의 pretrained 모델 중 mA
 |--|--|
 |데이터 이미지|YOLOv5x로 돌린 후(바운딩 박스 생성)|
 
+
 <br>
 
 > **디노이징**
-> <br> [NAFNET](https://github.com/megvii-research/NAFNet)
+> <br> [PNGAN](https://github.com/caiyuanhao1998/PNGAN)
 
 디노이징 툴인 NAFNET으로 데이터 이미지셋을 디노이징한 후, YOLOv5x로 다시 객체 인식해서 정확도 검사
-<br><br>**NAFNET 프레임워크:**<br>
+<br><br>**PNGAN 프레임워크:**<br>
 <img src="https://user-images.githubusercontent.com/94797349/205450910-f821d240-be41-4b8a-b130-664f6345faa5.jpg" width="400" height="150"/>
 <img src="https://user-images.githubusercontent.com/94797349/205450934-e7e3b380-9192-4abc-b6c5-406feae56453.jpg" width="100" height="200"/>
 <br>
