@@ -98,9 +98,6 @@ stable diffusion에서 생성한 이미지를 YOLOv5의 pretrained 모델 중 mA
 
 <br><br>
 
-# DALL-E 2 이미지와 stable diffusion 이미지 비교
-<img width="443" alt="스크린샷 2023-05-28 오후 3 45 17" src="https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/84899706/26b15c49-6a39-4493-8fb6-74535e6921e9">
-
 # 실험결과 
 ### 각각의 카테고리에 대한 객체 인식률 
 
