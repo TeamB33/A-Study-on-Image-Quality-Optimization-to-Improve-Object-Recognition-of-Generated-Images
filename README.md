@@ -15,7 +15,7 @@
 <br>   
 
 # 데이터셋
-  > [Datset in Gdrive](https://drive.google.com/drive/folders/1KP1ZxGk0fJ_dSvetD0rYCNpINdC-yOdn?usp=sharing)
+  > [Dataset in Gdrive](https://drive.google.com/drive/folders/1KP1ZxGk0fJ_dSvetD0rYCNpINdC-yOdn?usp=sharing)
 
 
 
