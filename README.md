@@ -2,7 +2,7 @@
 <br>
 <div align="center">
     
-   **[생성 이미지에 대한 객체 인식과 디노이징 성능 평가]**
+   **생성 이미지에 대한 객체 인식과 디노이징 성능 평가**
   
 </div>
 
@@ -78,25 +78,14 @@ stable-diffusion에서 생성한 이미지를 YOLOv5의 pretrained 모델 중 mA
 <br>
 
 > **디노이징**
-> <br> [PNGAN](https://github.com/caiyuanhao1998/PNGAN)
+> <br> [NAFNet](https://github.com/megvii-research/NAFNet)
+> [PNGAN](https://github.com/caiyuanhao1998/PNGAN)
 
 디노이징 툴인 NAFNET으로 데이터 이미지셋을 디노이징한 후, YOLOv5x로 다시 객체 인식해서 정확도 검사
-<br><br>**PNGAN 프레임워크:**<br>
-<img src="https://user-images.githubusercontent.com/94797349/205450910-f821d240-be41-4b8a-b130-664f6345faa5.jpg" width="400" height="150"/>
-<img src="https://user-images.githubusercontent.com/94797349/205450934-e7e3b380-9192-4abc-b6c5-406feae56453.jpg" width="100" height="200"/>
-<br>
-|<img src = "https://user-images.githubusercontent.com/94797349/204239262-ed8409ac-fedf-4013-83d6-6648e7e88de3.png" width="250" height="250"/>|<img src = "https://user-images.githubusercontent.com/94797349/204239543-f334ae9f-35bf-4794-ac94-8593c78e6163.png" width="250" height="250"/>|
-|--|--|
-|데이터 이미지(Before denoising)|데이터 이미지(After denoising)|
-
-
-> **디노이징**
-> <br> [NAFNET](https://github.com/megvii-research/NAFNet)
-
-디노이징 툴인 NAFNET으로 데이터 이미지셋을 디노이징한 후, YOLOv5x로 다시 객체 인식해서 정확도 검사
-<br><br>**NAFNET 프레임워크:**<br>
-<img src="https://user-images.githubusercontent.com/94797349/205450910-f821d240-be41-4b8a-b130-664f6345faa5.jpg" width="400" height="150"/>
-<img src="https://user-images.githubusercontent.com/94797349/205450934-e7e3b380-9192-4abc-b6c5-406feae56453.jpg" width="100" height="200"/>
+<br><br>**NAFNet 프레임워크:**<br>
+|<img src="https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/7026e594-707e-49f4-826c-7c0f2d6e14ea" width="200" height="200"/>|
+<img src="https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/9050e377-85e5-4a47-8531-be41dbcb70ea" width="200" height="200"/>|
+<img src="https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/1cb297aa-476c-4e6e-9c53-36a1c8553dd4" width="200" height="200"/>|
 <br>
 |<img src = "https://user-images.githubusercontent.com/94797349/204239262-ed8409ac-fedf-4013-83d6-6648e7e88de3.png" width="250" height="250"/>|<img src = "https://user-images.githubusercontent.com/94797349/204239543-f334ae9f-35bf-4794-ac94-8593c78e6163.png" width="250" height="250"/>|
 |--|--|
