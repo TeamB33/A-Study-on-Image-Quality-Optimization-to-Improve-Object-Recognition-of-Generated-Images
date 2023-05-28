@@ -93,7 +93,7 @@ stable diffusion에서 생성한 이미지를 YOLOv5의 pretrained 모델 중 mA
 
 <br><br>
 
-# 실험결과 
+# 실험 결과 
 각각의 카테고리에 대한 객체 인식률은 아래의 표와 같다.
 
 |카테고리|original|NAFNet|PNGAN|
