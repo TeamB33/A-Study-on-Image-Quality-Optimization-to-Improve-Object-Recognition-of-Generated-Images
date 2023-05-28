@@ -6,13 +6,11 @@
   
 </div>
 
-![image2](https://user-images.githubusercontent.com/94797349/203092739-2f5f2daf-08a4-43e7-935c-6585cfd969d8.png)
-<br><br>
-<div align="center">
-    
-   Yolov5🚀의 취약점 검사를 위해 COCO val 2017의 동물 객체 중 8가지를 카테고리로, 툴은 DALL-E-2를 이용해 생성한 이미지를 데이터 셋으로 하여 정확도를 검사한다.
-   도출된 취약점 개선을 위해 디노이징🚀(NAFNET), SR🚀(HAT)로 최적화 후 정확도 검사 연구를 진행한다.
+   Yolov5의 취약점 검사를 위해 COCO val 2017의 동물 객체 중 8가지를 카테고리로, Stable-diffusion 모델을 이용해 생성한 이미지를 데이터 셋으로 하여 정확도를 검사한다.
+   도출된 취약점 개선을 위해 디노이징(NAFNET, PNGAN)으로 최적화 후 정확도 검사 연구를 진행한다.
   
+   person, bird, dog, cat, horse, sheep, cow, elephant, bear, giraffe, zebra
+
 </div>
 <br>
     
