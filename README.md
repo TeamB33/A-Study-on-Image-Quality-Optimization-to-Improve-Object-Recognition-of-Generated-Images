@@ -26,7 +26,7 @@
 
 <br>
 
-## technology
+# Technology
 <br>
 
 > **Stable-diffusion**
@@ -64,32 +64,38 @@ COCO val 2017의 카테고리 중 주요 객체인 person, bird, dog, cat, horse
 > **Yolov5x**
 > <br>: [YOLOv5](https://github.com/ultralytics/yolov5)
 
-stable-diffusion에서 생성한 이미지를 YOLOv5의 pretrained 모델 중 mAP 값이 높아서 성능이 좋다고 평가된 YOLOv5x 모델에 넣어 정확도를 평가
+stable diffusion에서 생성한 이미지를 YOLOv5의 pretrained 모델 중 mAP 값이 높아서 성능이 좋다고 평가된 YOLOv5x 모델에 넣어 정확도를 평가하였다.
+
 <br><br>**YOLOv5 프레임워크:**<br>
 <img src="https://user-images.githubusercontent.com/94797349/205436140-42c89d27-ae63-4b63-91ae-cbc71b1c273d.png" width="600" height="200"/>
 <br>
-|<img src = "https://user-images.githubusercontent.com/94797349/203380581-4a9f2a73-c6fb-4612-a84b-386517da3181.png" width="250" height="250"/>|<img src = "https://user-images.githubusercontent.com/94797349/203380664-2dc2a0cc-1b14-4ad5-872e-cdc10a8c3268.jpg" width="250" height="250"/>|
+|<img src = "https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/57c52bdf-57f4-4647-bc43-5df19d2e8e21" width="250" height="250"/>|<img src = "https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/a298c7e1-b533-4001-a565-34d9222b8398" width="250" height="250"/>|
 |--|--|
 |데이터 이미지|YOLOv5x로 돌린 후(바운딩 박스 생성)|
 
 
-<br>
+<br><br><br>
 
 > **디노이징**
 > <br> [NAFNet](https://github.com/megvii-research/NAFNet) , 
 > [PNGAN](https://github.com/caiyuanhao1998/PNGAN)
-
+<br><br>**NAFNet 프레임워크:**<br>
+<img src="https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/49c0d24c-b825-4a75-a62b-135ae2af60f0" width="600" height="200"/>
+<br><br>**PNGAN 프레임워크:**<br>
+<img src="https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/01ac0cb7-6ebb-4aea-9017-bbb5cfb46a87" width="600" height="200"/>
+<br><br>
 디노이징 툴인 NAFNET으로 데이터 이미지셋을 디노이징한 후, YOLOv5x로 다시 객체 인식해서 정확도 검사
-
 
 |original|PNGAN|NAFNet
 |----|----|----|
 |<img src = "https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/7026e594-707e-49f4-826c-7c0f2d6e14ea" width="150" height="150"/>|<img src = "https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/9050e377-85e5-4a47-8531-be41dbcb70ea" width="150" height="150"/>|<img src = "https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/1cb297aa-476c-4e6e-9c53-36a1c8553dd4" width="150" height="150"/>|
 
 
+<br><br>
 
-# DALL-E 2로 생성한 이미지와 stable diffusion으로 생성한 이미지의 비교
+# DALL-E 2 이미지와 stable diffusion 이미지 비교
 <img width="443" alt="스크린샷 2023-05-28 오후 3 45 17" src="https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/84899706/26b15c49-6a39-4493-8fb6-74535e6921e9">
 
-# 실험결과 - 각각의 카테고리에 대한 객체 인식률 
+# 실험결과 
+## 각각의 카테고리에 대한 객체 인식률 
 <img width="434" alt="스크린샷 2023-05-28 오후 3 45 02" src="https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/84899706/41f40df6-38ff-4fb1-bb4d-6fe8683b1c10">
