@@ -62,7 +62,7 @@ stable-diffusion에서 생성한 이미지를 YOLOv5의 pretrained 모델 중 mA
 <br>
 
 > **디노이징**
-> <br>: [NAFNET](https://github.com/megvii-research/NAFNet)
+> <br> [NAFNET](https://github.com/megvii-research/NAFNet)
 
 디노이징 툴인 NAFNET으로 데이터 이미지셋을 디노이징한 후, YOLOv5x로 다시 객체 인식해서 정확도 검사
 <br><br>**NAFNET 프레임워크:**<br>
@@ -73,7 +73,9 @@ stable-diffusion에서 생성한 이미지를 YOLOv5의 pretrained 모델 중 mA
 |--|--|
 |데이터 이미지(Before denoising)|데이터 이미지(After denoising)|
 
-> <br>: [NAFNET](https://github.com/megvii-research/NAFNet)
+
+> **디노이징**
+> <br> [NAFNET](https://github.com/megvii-research/NAFNet)
 
 디노이징 툴인 NAFNET으로 데이터 이미지셋을 디노이징한 후, YOLOv5x로 다시 객체 인식해서 정확도 검사
 <br><br>**NAFNET 프레임워크:**<br>
