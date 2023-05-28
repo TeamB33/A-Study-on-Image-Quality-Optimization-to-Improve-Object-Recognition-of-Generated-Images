@@ -96,6 +96,7 @@ stable diffusion에서 생성한 이미지를 YOLOv5의 pretrained 모델 중 mA
 # 실험 결과 
 각각의 카테고리에 대한 객체 인식률은 아래의 표와 같다.
 
+
 |카테고리|original|NAFNet|PNGAN|
 |-------|--------|------|-----|
 |person  |99.5    |97.7  |99.0 | 
@@ -110,3 +111,4 @@ stable diffusion에서 생성한 이미지를 YOLOv5의 pretrained 모델 중 mA
 |giraffe |99.8    |98.9  |99.7 | 
 |zebra   |100.0   |98.5  |100.0| 
 |total   |96.4    |93.8  |92.7 | 
+   
