@@ -1,16 +1,14 @@
 # Performance Evaluation of Denoising and Object Detection on Generated Images
 <br>
-<div align="center">
+<div>
     
-   **생성 이미지에 대한 객체 인식과 디노이징 성능 평가**
+   ### 생성 이미지에 대한 객체 인식과 디노이징 성능 평가
   
 </div>
 
    Yolov5의 취약점 검사를 위해 COCO val 2017의 동물 객체 중 8가지를 카테고리로, Stable-diffusion 모델을 이용해 생성한 이미지를 데이터 셋으로 하여 정확도를 검사한다.
    도출된 취약점 개선을 위해 디노이징(NAFNET, PNGAN)으로 최적화 후 정확도 검사 연구를 진행한다.
   
-   person, bird, dog, cat, horse, sheep, cow, elephant, bear, giraffe, zebra
-
 </div>
 <br>   
 
@@ -53,12 +51,12 @@ COCO val 2017의 카테고리 중 주요 객체인 person, bird, dog, cat, horse
 
 |dog|bird|person|cow|
 |----|----|----|----|
-|A photo of dog driving a car|A photo of a bird in a bathtub covered in a towel|A photo of a person sitting on a bed|A photo of a cow running in the meadow|
+|A photo of a dog driving a car|A photo of a bird in a bathtub covered in a towel|A photo of a person sitting on a bed|A photo of a cow running in the meadow|
 |<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/a8a4009c-0121-4df8-93d7-61c11a485d6f" width="150" height="150"/>|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/79df4b04-48b5-4ff0-9cc5-4f3ba046f866" width="150" height="150"/>|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/14cfffe0-a218-468c-a65b-069013d10afd" width="150" height="150"/>|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/8aa8f9bf-8e0e-4ddb-9552-52cfe9311ac6" width="150" height="150"/>|
 
 |elephant|sheep|cat|
 |----|----|----|
-|A photo of an elephant standing in front of a bookshelf|A photo of a sheep walking on the beach|A photo of cat wearing a glasses|
+|A photo of an elephant standing in front of a bookshelf|A photo of a sheep walking on the beach|A photo of a cat wearing a glasses|
 |<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/e5a4e9f0-9ac8-45ae-a427-b512a75f8a1f" width="150" height="150"/>|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/abbc72a7-6631-4a27-9be8-7c692bbfc9f7" width="150" height="150"/>|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/f3705ac4-cdc1-4d53-a7ed-f9e6148a1668" width="150" height="150"/>|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/8aa8f9bf-8e0e-4ddb-9552-52cfe9311ac6" width="150" height="150"/>|
 
 <br>
@@ -82,18 +80,9 @@ stable-diffusion에서 생성한 이미지를 YOLOv5의 pretrained 모델 중 mA
 > [PNGAN](https://github.com/caiyuanhao1998/PNGAN)
 
 디노이징 툴인 NAFNET으로 데이터 이미지셋을 디노이징한 후, YOLOv5x로 다시 객체 인식해서 정확도 검사
-<br><br>**NAFNet 프레임워크:**<br>
-|<img src="https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/7026e594-707e-49f4-826c-7c0f2d6e14ea" width="200" height="200"/>|
-<img src="https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/9050e377-85e5-4a47-8531-be41dbcb70ea" width="200" height="200"/>|
-<img src="https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/1cb297aa-476c-4e6e-9c53-36a1c8553dd4" width="200" height="200"/>|
-<br>
-|<img src = "https://user-images.githubusercontent.com/94797349/204239262-ed8409ac-fedf-4013-83d6-6648e7e88de3.png" width="250" height="250"/>|<img src = "https://user-images.githubusercontent.com/94797349/204239543-f334ae9f-35bf-4794-ac94-8593c78e6163.png" width="250" height="250"/>|
-|--|--|
-|데이터 이미지(Before denoising)|데이터 이미지(After denoising)|
 
 
-# conference
+|original|PNGAN|NAFNet
+|----|----|----|
+|<img src = "https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/7026e594-707e-49f4-826c-7c0f2d6e14ea" width="150" height="150"/>|<img src = "https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/9050e377-85e5-4a47-8531-be41dbcb70ea" width="150" height="150"/>|<img src = "https://github.com/TeamB33/Performance-Evaluation-of-Denoising-and-Object-Detection-on-Generated-Images/assets/110325367/1cb297aa-476c-4e6e-9c53-36a1c8553dd4" width="150" height="150"/>|
 
-  > 회의록 : [회의록 DRIVE](https://docs.google.com/document/d/1fIRLpuA7V0Jb0l6fWg8KfU0ae6wXg9rNU_Z_M0-um4E/edit?usp=sharing)
-
-<br>
