@@ -33,7 +33,7 @@
 
 |한글|영어로 번역|Stable-Diffusion으로 생성한 이미지|
 |------|---|---|
-|"꽃밭을 걷는 곰 사진"|"A photo of a bear walking through the flowers"|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/bb047a64-cb9c-4b9b-ae8c-d54edb1051fd" width="250" height="200"/>|
+|"꽃밭을 걷는 곰 사진"|"A photo of a bear walking through the flowers"|<img src = "https://github.com/TeamB33/A-Study-on-Image-Quality-Optimization-to-Improve-Object-Recognition-of-Generated-Images/assets/110325367/bb047a64-cb9c-4b9b-ae8c-d54edb1051fd" width="200" height="200"/>|
 <br>
 
 COCO val 2017의 카테고리 중 주요 객체인 person, bird, dog, cat, horse, sheep, cow, elephant, bear, giraffe, zebra에 대한 문장을 생성하고, 생성된 문장을 이용하여 이미지셋을 생성하고자 하였다.
